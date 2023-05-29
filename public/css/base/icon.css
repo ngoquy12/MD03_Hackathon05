@@ -1,0 +1,207 @@
+.m-icon-14 {
+  width: 14px;
+  height: 14px;
+  background-image: url(../../assets/img/Sprites.64af8f61.svg);
+  background-repeat: no-repeat;
+}
+
+.m-icon-16 {
+  width: 16px;
+  height: 16px;
+  background-image: url(../../assets/img/Sprites.64af8f61.svg);
+  background-repeat: no-repeat;
+}
+
+.m-icon-20 {
+  width: 20px;
+  height: 20px;
+  background-image: url(../../assets/img/Sprites.64af8f61.svg);
+  background-repeat: no-repeat;
+}
+
+.m-icon-24 {
+  width: 24px;
+  height: 24px;
+  background-image: url(../../assets/img/Sprites.64af8f61.svg);
+  background-repeat: no-repeat;
+}
+
+.m-icon-48 {
+  width: 48px;
+  height: 48px;
+  background-image: url(../../assets/img/Sprites.64af8f61.svg);
+  background-repeat: no-repeat;
+}
+
+/* Icon option */
+.m-option-icon {
+  background-position: -424px -86px;
+}
+
+/* Icon tổng quan */
+.m-icon-dashboard {
+  background-position: -30px -1628px;
+}
+
+/* Icon tiền mặt */
+.m-icon-cash {
+  background-position: -73px -1628px;
+}
+
+/* Icon tiền gửi */
+.m-icon-bank {
+  background-position: -117px -1628px;
+}
+
+/* Icon mua hàng */
+.m-icon-buy {
+  background-position: -161px -1628px;
+}
+
+/* icon bán hàng */
+.m-icon-sale {
+  background-position: -204px -1628px;
+}
+
+/* icon quản lý hoá đơn */
+.m-icon-invoice {
+  background-position: -249px -1628px;
+}
+
+/* Icon kho */
+.m-icon-stock {
+  background-position: -291px -1628px;
+}
+
+/* Icon công cụ dụng cụ */
+.m-icon-tools {
+  background-position: -336px -1628px;
+}
+
+/* Icon tài sản cố định */
+.m-icon-fixed-assets {
+  background-position: -378px -1630px;
+}
+
+/* Icon thuế */
+.m-icon-tax {
+  background-position: -423px -1630px;
+}
+
+/* Icon giá thành */
+.m-icon-price {
+  background-position: -467px -1628px;
+}
+
+/* Icon tổng hợp */
+.m-icon-general {
+  background-position: -510px -1630px;
+}
+
+/* Icon ngân sách */
+.m-icon-budget {
+  background-position: -378px -1659px;
+}
+
+/* Icon báo cáo */
+.m-icon-report {
+  background-position: -547px -1628px;
+}
+
+/* Icon phân tích tài chính */
+.m-icon-finance {
+  background-position: -204px -1664px;
+}
+
+/* Icon 3 dọc header */
+.m-icon-three-stripes {
+  background-position: -843px -30px;
+}
+
+/* Icon thông báo */
+.m-icon-bell {
+  background-position: -787px -30px;
+}
+
+/* Icon menu */
+.m-icon-chevron-down {
+  background-position: -464px -408px;
+}
+
+.m-icon-chevron-down-bold {
+  background-position: -1128px -360px;
+}
+
+/* Icon tìm kiếm */
+.m-icon-search {
+  background-position: -992px -360px;
+}
+
+/* Icon tải lại dữ liệu */
+.m-icon-refresh {
+  background-position: -423px -201px;
+}
+
+/* Icon dropdown */
+.m-icon-arrow-dropdown {
+  background-position: -560px -359px;
+}
+
+/* Icon dropdown blue*/
+.m-icon-arrow-down-blue {
+  background-position: -896px -359px;
+}
+
+/* Icon active checkbox */
+.m-icon-checkbox-active {
+  background-position: -1224px -360px;
+}
+
+/* Icon trợ giúp */
+.m-icon-help {
+  background-position: -89px -144px;
+  margin-right: 8px;
+}
+
+/* Icon đóng biểu mẫu */
+.m-icon-close {
+  background-position: -144px -144px;
+}
+
+/* Icon cảnh báo nguy hiểm */
+.m-icon-danger {
+  background-position: -24px -954px;
+  width: 48px;
+  height: 48px;
+}
+
+/* Icon câu hỏi */
+.m-icon-question {
+  background-position: -826px -456px;
+  width: 48px;
+  height: 48px;
+}
+
+/* Icon cảnh báo */
+.m-icon-warning {
+  background-position: -597px -456px;
+  width: 48px;
+  height: 48px;
+}
+
+/* Icon thành công */
+.m-icon-suscess {
+  background-position: -984px -456px;
+  width: 48px;
+  height: 48px;
+}
+
+/* Icon xuất file excel */
+.m-icon-excel {
+  background-position: -1265px -90px;
+  opacity: 0.6;
+}
+
+.m-icon-excel:hover {
+  opacity: 1;
+}

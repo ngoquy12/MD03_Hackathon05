@@ -1,0 +1,40 @@
+.m-navbar {
+  height: 56px;
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+
+.m-navbar-right,
+.m-navbar-left {
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.m-navbar-user {
+  display: flex;
+  align-items: center;
+}
+
+.m-navbar-icon-left:hover,
+.m-navbar-icon-right:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.m-branch-name,
+.m-user-name {
+  font-family: Notosans-Semibold;
+  font-size: 14px;
+}
+
+.m-user-image img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}

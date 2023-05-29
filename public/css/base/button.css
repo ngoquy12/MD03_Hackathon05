@@ -1,0 +1,40 @@
+.m-button {
+  height: 36px;
+  min-width: 80px;
+  border: 1px solid transparent;
+  padding: 0 16px;
+  border-radius: 4px;
+  background-color: #2ca01c;
+  color: #fff;
+  cursor: pointer;
+}
+
+.m-button:hover {
+  background-color: #35bf22;
+}
+
+.m-button:active,
+.m-button:focus {
+  background-color: #2ca01c;
+}
+
+.m-button-secondary {
+  border: 1px solid #8d9096;
+  color: #111;
+  background-color: transparent;
+}
+
+.m-button-secondary:hover {
+  background-color: #d2d3d6;
+}
+
+.m-button-secondary:focus,
+.m-button-secondary:active {
+  background-color: #d2d3d6;
+}
+
+.m-btn-text {
+  font-size: 13px;
+  color: inherit;
+  line-height: 36px;
+}

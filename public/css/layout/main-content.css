@@ -1,0 +1,124 @@
+.m-main-content {
+  background-color: #eceef1;
+  position: relative;
+  height: calc(100vh - 56px);
+  padding: 24px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.m-content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.m-header-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111;
+}
+
+.m-content-body {
+  background-color: #fff;
+  height: 100%;
+}
+
+.m-body-toolbar {
+  padding: 24px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.m-icon-refresh:hover,
+.m-icon-excel:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.m-search-area {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+
+.m-button-content {
+  display: flex;
+  align-items: center;
+}
+
+.m-button-delete {
+  height: 36px;
+  min-width: 80px;
+  padding: 0 16px;
+  background-color: transparent;
+  border: 2px solid #3b3c3f;
+  border-radius: 30px;
+  color: #111;
+  position: relative;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.m-button-delete:hover {
+  background-color: #d2d3d6;
+}
+
+.m-button-text-delete {
+  color: inherit;
+  font-weight: 600;
+  position: relative;
+  color: inherit;
+  transition: all 0.25s ease;
+}
+
+.m-confirm-delete {
+  height: 36px;
+  min-width: 80px;
+  border: 1px solid #babec5;
+  position: absolute;
+  z-index: 1000;
+  background-color: #fff;
+  left: 97px;
+  border-radius: 4px;
+  height: 36px;
+  top: 37px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.m-confirm-delete:hover {
+  background-color: #e8e9ec;
+  color: #111;
+}
+
+.m-confirm-delete-text {
+  padding: 5px 10px;
+  line-height: 24px;
+}
+
+.m-toolbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+.m-toolbar-left {
+  position: relative;
+}
+
+.m-input-icon-search {
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+}
+
+.m-input-search {
+  padding-right: 36px;
+}

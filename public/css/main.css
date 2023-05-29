@@ -1,0 +1,96 @@
+/* CSS layout */
+@import url(./layout/main-content.css);
+@import url(./layout/menu.css);
+@import url(./layout/navbar.css);
+@import url(./layout/content.css);
+@import url(./layout/popup.css);
+/* CSS base */
+@import url(./base/icon.css);
+@import url(./base/button.css);
+@import url(./base/input.css);
+@import url(./base/table.css);
+@import url(./base/pagination.css);
+@import url(./base/dropdown.css);
+@import url(./base/combobox.css);
+@import url(./base/dialog.css);
+@import url(./base/loading.css);
+@import url(./base/checkbox.css);
+@import url(./base/radio.css);
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-transform: none;
+  text-decoration: none !important;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  text-decoration-thickness: initial;
+  -webkit-text-decoration-style: initial;
+  text-decoration-style: solid;
+  -webkit-text-decoration-color: initial;
+  text-decoration-color: initial;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b8bcc3;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #f1f1f1;
+  width: 10px;
+}
+
+.m-container {
+  display: flex;
+}
+
+.m-flex {
+  display: flex;
+  align-items: center;
+}
+
+.m-flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.m-pr-6 {
+  padding-right: 6px;
+}
+
+.m-pb-12 {
+  padding-bottom: 12px;
+}
+
+.m-ml-8 {
+  margin-left: 8px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

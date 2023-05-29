@@ -1,0 +1,70 @@
+.m-input-checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.m-table-checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.m-checkbox {
+  position: relative;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  display: flex;
+  width: 18px;
+  height: 18px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #afafaf;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+  transform: rotate(-90deg);
+  display: block;
+}
+
+.m-input-checkbox,
+.m-input-checkall {
+  position: absolute;
+  width: 10%;
+  height: 100%;
+  opacity: 0;
+  z-index: 200;
+  cursor: pointer;
+}
+
+.m-input-checkbox:checked + .m-checkbox,
+.m-input-checkall:checked + .m-checkbox {
+  border: 1px solid #2ca01c;
+  transform: rotate(0deg);
+}
+
+.m-icon-checkbox-active {
+  display: none;
+}
+
+.m-input-checkbox:checked
+  + .m-checkbox
+  > .m-checkbox-inner
+  > .m-icon-checkbox-active,
+.m-input-checkall:checked
+  + .m-checkbox
+  > .m-checkbox-inner
+  > .m-icon-checkbox-active {
+  display: block;
+}
+
+.m-checkbox-inner {
+  width: inherit;
+  height: inherit;
+}

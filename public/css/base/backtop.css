@@ -1,0 +1,15 @@
+#scroll-to-top {
+  position: fixed;
+  z-index: 1000;
+  bottom: 30px;
+  right: 30px;
+  width: 53px;
+  height: 60px;
+  background-color: rgba(30, 30, 30, 0.4);
+  background-position: 50% 50%;
+  background-size: 50%;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAAA8CAMAAACuCk+GAAAAVFBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////8wXzyWAAAAHHRSTlMAv3FsR04ETZV7qzmMQwNjpYSBbbaedD8lCCghrxzLjAAAATlJREFUeAG10ctOwzAUhOHpBePYSdM2vbTw/u+JkIyUsmCU/5BZ+kjfv7AWLNVtn3M/1YNW2b1s2o51DX+3mW38f3+7edluZZ8XvM8L3ucF7/MC93nB+7zgfV7wPi9wnxe8zwve5wXv84L3eYH7vsB9X+A+L3DfF7jvC9z3Be7zAvd9gfu2wH1T4L4pcH//7gpBX7KFoL+ggPwFBeSDAvDlC9AHBeCDAvClN18APigAHxS8L1gAPijsqO8LoyQN3PeFKj0L933hmDSEfFu4q4v5rnDTNeibQlYJ+qZw1DXom0LWOeibQqd90DeFQc8L932hpHaK+n8yHfdd4abvpTP2TaE7qBWgbwo/vpROxDeF5rfC7B8ug/D2M397eD2V9t5/KrBHbkwZ9GupTn0+jQ8F9zGecj/VpLYvzkEQTeC4sD8AAAAASUVORK5CYII=);
+  background-repeat: no-repeat;
+  transition: background-color 300ms linear 0s;
+  border-radius: 4px;
+}
